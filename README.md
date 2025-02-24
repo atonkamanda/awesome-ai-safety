@@ -1,6 +1,6 @@
 # AI Safety and Alignment
 
-![](https://img.shields.io/github/last-commit/username/awesome-ai-safety?color=green) ![](https://img.shields.io/badge/PaperNumber-XX-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)
+![](https://img.shields.io/github/last-commit/atonkamanda/awesome-ai-safety?color=green) ![](https://img.shields.io/badge/PaperNumber-36-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)
 
 A curated list of resources dedicated to research in **AI safety and alignment**. As AI systems become increasingly influential in society, ensuring that they operate safely, truthfully, and robustly is more critical than ever. Contributions are welcome via pull request!
 
