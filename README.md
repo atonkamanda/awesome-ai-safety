@@ -1,6 +1,6 @@
 # AI Safety and Alignment
 
-![](https://img.shields.io/github/last-commit/atonkamanda/awesome-ai-safety?color=green) ![](https://img.shields.io/badge/PaperNumber-36-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)
+![](https://img.shields.io/github/last-commit/atonkamanda/awesome-ai-safety?color=green) ![](https://img.shields.io/badge/PaperNumber-42-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)
 
 A curated list of resources dedicated to research in **AI safety and alignment**. As AI systems become increasingly influential in society, ensuring that they operate safely, truthfully, and robustly is more critical than ever. This list is focused on recent AI research with highly capable models and will be updated frequently. 
 
@@ -54,6 +54,14 @@ A curated list of resources dedicated to research in **AI safety and alignment**
    *Usman Anwar, Abulhair Saparov, Javier Rando, Daniel Paleka, Miles Turpin, Peter Hase, Ekdeep Singh Lubana, Erik Jenner, Stephen Casper, Oliver Sourbut, Benjamin L. Edelman, Zhaowei Zhang, Mario Günther, Anton Korinek, Jose Hernandez-Orallo, Lewis Hammond, Eric Bigelow, Alexander Pan, Lauro Langosco, Tomasz Korbak, Heidi Zhang, Ruiqi Zhong, Seán Ó hÉigeartaigh, Gabriel Recchia, Giulio Corsi, Alan Chan, Markus Anderljung, Lilian Edwards, Aleksandar Petrov, Christian Schroeder de Witt, Sumeet Ramesh Motwan, Yoshua Bengio, Danqi Chen, Philip H.S. Torr, Samuel Albanie, Tegan Maharaj, Jakob Foerster, Florian Tramer, He He, Atoosa Kasirzadeh, Yejin Choi, David Krueger*  
    [[pdf](https://arxiv.org/abs/2404.09932)]
 
+5. **Deliberative Alignment: Reasoning Enables Safer Language Models.** [2024] ![](https://img.shields.io/badge/Alignment-brightgreen)  
+   *Melody Y. Guan, Manas Joglekar, Eric Wallace, Saachi Jain, Boaz Barak, Alec Helyar, Rachel Dias, Andrea Vallone, Hongyu Ren, Jason Wei, Hyung Won Chung, Sam Toyer, Johannes Heidecke, Alex Beutel, Amelia Glaese*  
+   [[pdf](https://arxiv.org/abs/2412.16339)]
+
+6. **Alignment faking in large language models.** [2024] ![](https://img.shields.io/badge/Alignment-brightgreen)  
+   *Ryan Greenblatt, Carson Denison, Benjamin Wright, Fabien Roger, Monte MacDiarmid, Sam Marks, Johannes Treutlein, Tim Belonax, Jack Chen, David Duvenaud, Akbir Khan, Julian Michael, Sören Mindermann, Ethan Perez, Linda Petrini, Jonathan Uesato, Jared Kaplan, Buck Shlegeris, Samuel R. Bowman, Evan Hubinger*  
+   [[pdf](https://arxiv.org/abs/2412.14093)]
+
 ---
 
 ## Instrumental Convergence
@@ -73,6 +81,14 @@ A curated list of resources dedicated to research in **AI safety and alignment**
 4. **Evaluating the Paperclip Maximizer: Are RL-Based Language Models More Likely to Pursue Instrumental Goals?** [2025] ![](https://img.shields.io/badge/Instrumental-purple)  
    *Yufei He, Yuexin Li, Jiaying Wu, Yuan Sui, Yulin Chen, Bryan Hooi*  
    [[pdf](https://www.arxiv.org/abs/2502.12206)]
+
+5. **Tell me about yourself: LLMs are aware of their learned behaviors.** [2025] ![](https://img.shields.io/badge/Instrumental-purple)  
+   *Jan Betley, Xuchan Bao, Martín Soto, Anna Sztyber-Betley, James Chua, Owain Evans*  
+   [[pdf](https://arxiv.org/abs/2501.11120)]
+
+6. **Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs.** [2025] ![](https://img.shields.io/badge/Instrumental-purple)  
+   *Mantas Mazeika, Xuwang Yin, Rishub Tamirisa, Jaehyuk Lim, Bruce W. Lee, Richard Ren, Long Phan, Norman Mu, Adam Khoja, Oliver Zhang, Dan Hendrycks*  
+   [[pdf](https://arxiv.org/abs/2502.08640)]
 
 ---
 
@@ -109,6 +125,10 @@ A curated list of resources dedicated to research in **AI safety and alignment**
 8. **Constitutional Classifiers: Defending against Universal Jailbreaks across Thousands of Hours of Red Teaming.** [2025] ![](https://img.shields.io/badge/Evaluation-green)  
    *Mrinank Sharma, Meg Tong, Jesse Mu, Jerry Wei, Jorrit Kruthoff, Scott Goodfriend, Euan Ong, Alwin Peng, Raj Agarwal, Cem Anil, Amanda Askell, Nathan Bailey, Joe Benton, Emma Bluemke, Samuel R. Bowman, Eric Christiansen, Hoagy Cunningham, Andy Dau, Anjali Gopal, Rob Gilson, Logan Graham, Logan Howard, Nimit Kalra, Taesung Lee, Kevin Lin, Peter Lofgren, Francesco Mosconi, Clare O'Hara, Catherine Olsson, Linda Petrini, Samir Rajani, Nikhil Saxena, Alex Silverstein, Tanya Singh, Theodore Sumers, Leonard Tang, Kevin K. Troy, Constantin Weisser, Ruiqi Zhong, Giulio Zhou, Jan Leike, Jared Kaplan, Ethan Perez*  
    [[pdf](https://arxiv.org/abs/2501.18837)]
+
+9. **Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training.** [2024] ![](https://img.shields.io/badge/Security-red)  
+   *Evan Hubinger, Carson Denison, Jesse Mu, Mike Lambert, Meg Tong, Monte MacDiarmid, Tamera Lanham, Daniel M. Ziegler, Tim Maxwell, Newton Cheng, Adam Jermyn, Amanda Askell, Ansh Radhakrishnan, Cem Anil, David Duvenaud, Deep Ganguli, Fazl Barez, Jack Clark, Kamal Ndousse, Kshitij Sachan, Michael Sellitto, Mrinank Sharma, Nova DasSarma, Roger Grosse, Shauna Kravec, Yuntao Bai, Zachary Witten, Marina Favaro, Jan Brauner, Holden Karnofsky, Paul Christiano, Samuel R. Bowman, Logan Graham, Jared Kaplan, Sören Mindermann, Ryan Greenblatt, Buck Shlegeris, Nicholas Schiefer, Ethan Perez*  
+   [[pdf](https://arxiv.org/abs/2401.05566)]
 
 ---
 
