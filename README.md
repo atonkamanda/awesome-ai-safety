@@ -31,7 +31,7 @@ A curated list of resources dedicated to research in **AI safety and alignment**
    [[pdf](https://arxiv.org/abs/2405.06624)]
 
 3. **International AI Safety Report.** [2025] ![](https://img.shields.io/badge/General-blue)  
-   *Yoshua Bengio, Sören Mindermann, Daniel Privitera, Tamay Besiroglu, Rishi Bommasani, Stephen Casper, Yejin Choi, Philip Fox, Ben Garfinkel, Danielle Goldfarb, Hoda Heidari, Anson Ho, Sayash Kapoor, Leila Khalatbari, Shayne Longpre, Sam Manning, Vasilios Mavroudis, Mantas Mazeika, Julian Michael, Jessica Newman, Kwan Yee Ng, Chinasa T. Okolo, Deborah Raji, Girish Sastry, Elizabeth Seger, Theodora Skeadas, Tobin South, Emma Strubell, Florian Tramèr, Lucia Velasco, Nicole Wheeler, Daron Acemoglu, Olubayo Adekanmbi, David Dalrymple, Thomas G. Dietterich, Edward W. Felten, Pascale Fung, Pierre-Olivier Gourinchas, Fredrik Heintz, Geoffrey Hinton, Nick Jennings, Andreas Krause, Susan Leavy, Percy Liang, Teresa Ludermir, Vidushi Marda, Helen Margetts, John McDermid, Jane Munga, Arvind Narayanan, Alondra Nelson, Clara Neppel, Alice Oh, Gopal Ramchurn, Stuart Russell, Marietje Schaake, Bernhard Schölkopf, Dawn Song, Alvaro Soto, Lee Tiedrich, Gaël Varoquaux, Andrew Yao, Ya-Qin Zhang, Fahad Albalawi, Marwan Alserkal, Olubunmi Ajala*  
+   *Yoshua Bengio, ... Olubunmi Ajala*  
    [[pdf](https://arxiv.org/abs/2501.17805)]
 
 ---
@@ -171,7 +171,7 @@ A curated list of resources dedicated to research in **AI safety and alignment**
    [[pdf](https://arxiv.org/abs/2301.13379)]
 
 3. **Measuring Faithfulness in Chain-of-Thought Reasoning.** [2023] ![](https://img.shields.io/badge/CoT-teal)  
-   *Tamera Lanham, Anna Chen, Ansh Radhakrishnan, Benoit Steiner, Carson Denison, Danny Hernandez, Dustin Li, Esin Durmus, Evan Hubinger, Jackson Kernion, Kamilė Lukošiūtė, Karina Nguyen, Newton Cheng, Nicholas Joseph, Nicholas Schiefer, Oliver Rausch, Robin Larson, Sam McCandlish, Sandipan Kundu, Saurav Kadavath, Shannon Yang, Thomas Henighan, Timothy Maxwell, Timothy Telleen-Lawton, Tristan Hume, Zac Hatfield-Dodds, Jared Kaplan*  
+   *Tamera Lanham,..., Jared Kaplan*  
    [[pdf](https://arxiv.org/abs/2307.13702)]
 
 4. **Prover-Verifier Games Improve Legibility of LLM Outputs.** [2024] ![](https://img.shields.io/badge/CoT-teal)  
@@ -203,7 +203,7 @@ A curated list of resources dedicated to research in **AI safety and alignment**
    [[pdf](https://arxiv.org/abs/2401.01967)]
 
 2. **Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet.** [2024] ![](https://img.shields.io/badge/Interpretability-yellow)  
-   *Adly Templeton, Tom Conerly, Jonathan Marcus, Jack Lindsey, Trenton Bricken, Brian Chen, Adam Pearce, Craig Citro, Emmanuel Ameisen, Andy Jones, Hoagy Cunningham, Nicholas L Turner, Callum McDougall, Monte MacDiarmid, Alex Tamkin, Esin Durmus, Tristan Hume, Francesco Mosconi, C. Daniel Freeman, Theodore R. Sumers, Edward Rees, Joshua Batson, Adam Jermyn, Shan Carter, Chris Olah, Tom Henighan*  
+   *Adly Templeton,..., Chris Olah, Tom Henighan*  
    [[pdf](https://transformer-circuits.pub/2024/scaling-monosemanticity/)]
 
 ---
