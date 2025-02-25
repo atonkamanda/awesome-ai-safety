@@ -49,9 +49,19 @@ This section presents foundational papers that introduce key concepts, challenge
    *David "davidad" Dalrymple, Joar Skalse, Yoshua Bengio, Stuart Russell, Max Tegmark, Sanjit Seshia, Steve Omohundro, Christian Szegedy, Ben Goldhaber, Nora Ammann, Alessandro Abate, Joe Halpern, Clark Barrett, Ding Zhao, Tan Zhi-Xuan, Jeannette Wing, Joshua Tenenbaum*  
    [[pdf](https://arxiv.org/abs/2405.06624)]
 
-7. **International AI Safety Report.** [2025] ![](https://img.shields.io/badge/Overview-blue)  
+7. **Can a Bayesian Oracle Prevent Harm from an Agent?** [2024] ![](https://img.shields.io/badge/Overview-blue)  
+   *Yoshua Bengio, Michael K. Cohen, Nikolay Malkin, Matt MacDermott, Damiano Fornasiere, Pietro Greiner, Younesse Kaddar*  
+   [[pdf](https://arxiv.org/abs/2408.05284)]
+
+
+8. **International AI Safety Report.** [2025] ![](https://img.shields.io/badge/Overview-blue)  
    *Yoshua Bengio, Sören Mindermann, Daniel Privitera, Tamay Besiroglu, Rishi Bommasani, Stephen Casper, Yejin Choi, Philip Fox, Ben Garfinkel, Danielle Goldfarb, et al.*  
    [[pdf](https://arxiv.org/abs/2501.17805)]
+
+
+9. **Superintelligent Agents Pose Catastrophic Risks: Can Scientist AI Offer a Safer Path?** [2025] ![](https://img.shields.io/badge/Overview-blue)  
+   *Yoshua Bengio, Michael Cohen, Damiano Fornasiere, Joumana Ghosn, Pietro Greiner, Matt MacDermott, Sören Mindermann, Adam Oberman, Jesse Richardson, Oliver Richardson, Marc-Antoine Rondeau, Pierre-Luc St-Charles, David Williams-King*  
+   [[pdf](https://arxiv.org/abs/2502.15657)]
 
 ---
 
@@ -94,7 +104,7 @@ Alignment research focuses on ensuring AI systems act in accordance with human v
    [[pdf](https://arxiv.org/abs/2412.16339)]
 
 9. **Alignment faking in large language models.** [2024] ![](https://img.shields.io/badge/Alignment-brightgreen)  
-   *Ryan Greenblatt, ..., Evan Hubinger*  
+   *Ryan Greenblatt, Carson Denison, Benjamin Wright, Fabien Roger, Monte MacDiarmid, Sam Marks, Johannes Treutlein, Tim Belonax, Jack Chen, David Duvenaud, Akbir Khan, Julian Michael, Sören Mindermann, Ethan Perez, Linda Petrini, Jonathan Uesato, Jared Kaplan, Buck Shlegeris, Samuel R. Bowman, Evan Hubinger*  
    [[pdf](https://arxiv.org/abs/2412.14093)]
 
 ---
@@ -162,7 +172,7 @@ Adversarial robustness research addresses the vulnerability of AI systems to att
    [[pdf](https://www.anthropic.com/research/many-shot-jailbreaking)]
 
 8. **Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training.** [2024] ![](https://img.shields.io/badge/Adversarial-red)  
-   *Evan Hubinger, .., Ethan Perez*  
+   *Evan Hubinger, Carson Denison, Jesse Mu, Mike Lambert, Meg Tong, Monte MacDiarmid, Tamera Lanham, Daniel M. Ziegler, Tim Maxwell, Newton Cheng, Adam Jermyn, Amanda Askell, Ansh Radhakrishnan, Cem Anil, David Duvenaud, Deep Ganguli, Fazl Barez, Jack Clark, Kamal Ndousse, Kshitij Sachan, Michael Sellitto, Mrinank Sharma, Nova DasSarma, Roger Grosse, Shauna Kravec, Yuntao Bai, Zachary Witten, Marina Favaro, Jan Brauner, Holden Karnofsky, Paul Christiano, Samuel R. Bowman, Logan Graham, Jared Kaplan, Sören Mindermann, Ryan Greenblatt, Buck Shlegeris, Nicholas Schiefer, Ethan Perez*  
    [[pdf](https://arxiv.org/abs/2401.05566)]
 
 9. **Simple probes can catch sleeper agents.** [2024] ![](https://img.shields.io/badge/Adversarial-red)  
@@ -182,7 +192,7 @@ Adversarial robustness research addresses the vulnerability of AI systems to att
     [[pdf](https://arxiv.org/abs/2408.00761)]
 
 13. **Constitutional Classifiers: Defending against Universal Jailbreaks across Thousands of Hours of Red Teaming.** [2025] ![](https://img.shields.io/badge/Adversarial-red)  
-    *Mrinank Sharma, ..., Ethan Perez*  
+    *Mrinank Sharma, Meg Tong, Jesse Mu, Jerry Wei, Jorrit Kruthoff, Scott Goodfriend, Euan Ong, Alwin Peng, Raj Agarwal, Cem Anil, Amanda Askell, Nathan Bailey, Joe Benton, Emma Bluemke, Samuel R. Bowman, Eric Christiansen, Hoagy Cunningham, Andy Dau, Anjali Gopal, Rob Gilson, Logan Graham, Logan Howard, Nimit Kalra, Taesung Lee, Kevin Lin, Peter Lofgren, Francesco Mosconi, Clare O'Hara, Catherine Olsson, Linda Petrini, Samir Rajani, Nikhil Saxena, Alex Silverstein, Tanya Singh, Theodore Sumers, Leonard Tang, Kevin K. Troy, Constantin Weisser, Ruiqi Zhong, Giulio Zhou, Jan Leike, Jared Kaplan, Ethan Perez*  
     [[pdf](https://arxiv.org/abs/2501.18837)]
     
 ---
@@ -287,7 +297,7 @@ Mechanistic interpretability focuses on developing techniques to understand the 
    [[pdf](https://arxiv.org/abs/2401.01967)]
 
 3. **Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet.** [2024] ![](https://img.shields.io/badge/Interpretability-yellow)  
-   *Adly Templeton, ..., Tom Henighan*  
+   *Adly Templeton, Tom Conerly, Jonathan Marcus, Jack Lindsey, Trenton Bricken, Brian Chen, Adam Pearce, Craig Citro, Emmanuel Ameisen, Andy Jones, Hoagy Cunningham, Nicholas L Turner, Callum McDougall, Monte MacDiarmid, Alex Tamkin, Esin Durmus, Tristan Hume, Francesco Mosconi, C. Daniel Freeman, Theodore R. Sumers, Edward Rees, Joshua Batson, Adam Jermyn, Shan Carter, Chris Olah, Tom Henighan*  
    [[pdf](https://transformer-circuits.pub/2024/scaling-monosemanticity/)]
 
 ---
