@@ -1,6 +1,6 @@
 # AI Safety and Alignment
 
-![](https://img.shields.io/github/last-commit/atonkamanda/awesome-ai-safety?color=green) ![](https://img.shields.io/badge/PaperNumber-66-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)
+![](https://img.shields.io/github/last-commit/atonkamanda/awesome-ai-safety?color=green) ![](https://img.shields.io/badge/PaperNumber-64-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)
 
 A curated list of resources dedicated to research in **AI safety and alignment**. As AI systems become increasingly influential in society, ensuring that they operate safely, truthfully, and robustly is more critical than ever. This list emphasizes contemporary research addressing safety challenges with modern, highly capable AI models and will be updated regularly. 
 
@@ -136,6 +136,10 @@ Instrumental convergence examines how AI systems with different goals might deve
 6. **Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs.** [2025] ![](https://img.shields.io/badge/Instrumental-purple)  
    *Mantas Mazeika, Xuwang Yin, Rishub Tamirisa, Jaehyuk Lim, Bruce W. Lee, Richard Ren, Long Phan, Norman Mu, Adam Khoja, Oliver Zhang, Dan Hendrycks*  
    [[pdf](https://arxiv.org/abs/2502.08640)]
+
+7. **Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs.** [2025] ![](https://img.shields.io/badge/Instrumental-purple)  
+   *Jan Betley, Daniel Tan, Niels Warncke, Anna Sztyber-Betley, Xuchan Bao, Martín Soto, Nathan Labenz, Owain Evans*  
+   [[pdf](https://arxiv.org/abs/2502.17424)]
 
 ---
 
@@ -349,6 +353,10 @@ Evaluation research develops benchmarks, tests, and methodologies to assess AI s
 11. **Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress?** [2024] ![](https://img.shields.io/badge/Evaluation-green)  
     *Richard Ren, Steven Basart, Adam Khoja, Alice Gatti, Long Phan, Xuwang Yin, Mantas Mazeika, Alexander Pan, Gabriel Mukobi, Ryan H. Kim, Stephen Fitz, Dan Hendrycks*  
     [[pdf](https://arxiv.org/abs/2407.21792)]
+
+12. **Forecasting Rare Language Model Behaviors.** [2025] ![](https://img.shields.io/badge/Evaluation-green)  
+    *Erik Jones, Meg Tong, Jesse Mu, Mohammed Mahfoud, Jan Leike, Roger Grosse, Jared Kaplan, William Fithian, Ethan Perez, Mrinank Sharma*  
+    [[pdf](https://arxiv.org/abs/2502.16797)]
 
 ---
 
