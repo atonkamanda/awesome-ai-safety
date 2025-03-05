@@ -19,7 +19,6 @@ A curated list of resources dedicated to research in **AI safety**. As AI system
 - [Evaluation](#evaluation)
 - [Contribution](#contribution)
 
----
 
 ## Overview
 
@@ -60,7 +59,7 @@ This section presents foundational papers that introduce key concepts, challenge
    *Yoshua Bengio, Michael Cohen, Damiano Fornasiere, Joumana Ghosn, Pietro Greiner, Matt MacDermott, Sören Mindermann, Adam Oberman, Jesse Richardson, Oliver Richardson, Marc-Antoine Rondeau, Pierre-Luc St-Charles, David Williams-King*  
    [[pdf](https://arxiv.org/abs/2502.15657)]
 
----
+
 
 ## Alignment
 
@@ -110,7 +109,7 @@ Alignment research focuses on ensuring AI systems act in accordance with human v
     *Melody Y. Guan, Manas Joglekar, Eric Wallace, Saachi Jain, Boaz Barak, Alec Helyar, Rachel Dias, Andrea Vallone, Hongyu Ren, Jason Wei, Hyung Won Chung, Sam Toyer, Johannes Heidecke, Alex Beutel, Amelia Glaese*  
     [[pdf](https://arxiv.org/abs/2412.16339)]
 
----
+
 
 ## Instrumental Convergence
 
@@ -144,7 +143,7 @@ Instrumental convergence examines how AI systems with different goals might deve
    *Jan Betley, Daniel Tan, Niels Warncke, Anna Sztyber-Betley, Xuchan Bao, Martín Soto, Nathan Labenz, Owain Evans*  
    [[pdf](https://arxiv.org/abs/2502.17424)]
 
----
+
 
 ## Reward Hacking
 
@@ -178,7 +177,7 @@ Reward hacking research examines how AI systems might exploit flaws or misspecif
    *Jiayi Fu, Xuandong Zhao, Chengyuan Yao, Heng Wang, Qi Han, Yanghua Xiao*  
    [[pdf](https://www.arxiv.org/abs/2502.18770)]
 
----
+
 
 ## Adversarial Robustness
 
@@ -236,7 +235,7 @@ Adversarial robustness research addresses the vulnerability of AI systems to att
     *Mrinank Sharma, Meg Tong, Jesse Mu, Jerry Wei, Jorrit Kruthoff, Scott Goodfriend, Euan Ong, Alwin Peng, Raj Agarwal, Cem Anil, Amanda Askell, Nathan Bailey, Joe Benton, Emma Bluemke, Samuel R. Bowman, Eric Christiansen, Hoagy Cunningham, Andy Dau, Anjali Gopal, Rob Gilson, Logan Graham, Logan Howard, Nimit Kalra, Taesung Lee, Kevin Lin, Peter Lofgren, Francesco Mosconi, Clare O'Hara, Catherine Olsson, Linda Petrini, Samir Rajani, Nikhil Saxena, Alex Silverstein, Tanya Singh, Theodore Sumers, Leonard Tang, Kevin K. Troy, Constantin Weisser, Ruiqi Zhong, Giulio Zhou, Jan Leike, Jared Kaplan, Ethan Perez*  
     [[pdf](https://arxiv.org/abs/2501.18837)]
     
----
+
 
 ## Debate
 
@@ -254,7 +253,7 @@ Debate approaches leverage the ability of AI systems to critique each other's ou
    *Akbir Khan, John Hughes, Dan Valentine, Laura Ruis, Kshitij Sachan, Ansh Radhakrishnan, Edward Grefensthe, Samuel R. Bowman, Tim Rocktäschel, Ethan Perez*  
    [[pdf](https://arxiv.org/abs/2402.06782)]
 
----
+
 
 ## Honesty
 
@@ -280,7 +279,7 @@ Honesty research focuses on ensuring AI systems provide truthful, accurate infor
    *Lorenzo Pacchiardi, Alex J. Chan, Sören Mindermann, Ilan Moscovitz, Alexa Y. Pan, Yarin Gal, Owain Evans, Jan Brauner*  
    [[pdf](https://arxiv.org/abs/2309.15840)]
 
----
+
 
 ## Chain-of-thought Faithfulness
 
@@ -302,7 +301,7 @@ This research area examines whether the reasoning processes of AI systems—part
    *Jan Hendrik Kirchner, Yining Chen, Harri Edwards, Jan Leike, Nat McAleese, Yuri Burda*  
    [[pdf](https://arxiv.org/abs/2407.13692)]
 
----
+
 
 ## Weak-to-strong Generalization
 
@@ -320,7 +319,7 @@ Weak-to-strong generalization investigates whether and how safety properties in 
    *Ruimeng Ye, Yang Xiao, Bo Hui*  
    [[pdf](https://arxiv.org/abs/2410.12621)]
 
----
+
 
 ## Mechanistic Interpretability
 
@@ -346,7 +345,7 @@ Mechanistic interpretability focuses on developing techniques to understand the 
    *Stephen Chung, Scott Niekum, David Krueger*  
    [[pdf](https://arxiv.org/abs/2410.22459)]
 
----
+
 
 ## Evaluation
 
@@ -400,7 +399,7 @@ Evaluation research develops benchmarks, tests, and methodologies to assess AI s
     *Erik Jones, Meg Tong, Jesse Mu, Mohammed Mahfoud, Jan Leike, Roger Grosse, Jared Kaplan, William Fithian, Ethan Perez, Mrinank Sharma*  
     [[pdf](https://arxiv.org/abs/2502.16797)]
 
----
+
 
 ## Contribution
 
