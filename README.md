@@ -400,17 +400,3 @@ Evaluation research develops benchmarks, tests, and methodologies to assess AI s
     [[pdf](https://arxiv.org/abs/2502.16797)]
 
 
-
-## Contribution
-
-### Other Contributors
-
-*List of contributors will be added here.*
-
-### Contributing to this Paper List
-
-- First, decide which category your paper belongs to.
-- Next, follow the format used above—ensure there is an empty line between the title and the authors, and include the appropriate keyword tags and PDF link.
-- Finally, submit a pull request with your updates.
-
-**Don't worry if you don't nail every detail on the first try—we will help refine and update them.** Thank you for contributing to the AI safety and alignment community!
