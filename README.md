@@ -9,6 +9,7 @@ A curated list of resources dedicated to research in **AI safety and alignment**
 - [Overview](#overview)
 - [Alignment](#alignment)
 - [Instrumental Convergence](#instrumental-convergence)
+- [Reward Hacking](#reward-hacking)
 - [Adversarial Robustness](#adversarial-robustness)
 - [Debate](#debate)
 - [Honesty](#honesty)
@@ -19,8 +20,6 @@ A curated list of resources dedicated to research in **AI safety and alignment**
 - [Contribution](#contribution)
 
 ---
-
-
 
 ## Overview
 
@@ -53,11 +52,9 @@ This section presents foundational papers that introduce key concepts, challenge
    *Yoshua Bengio, Michael K. Cohen, Nikolay Malkin, Matt MacDermott, Damiano Fornasiere, Pietro Greiner, Younesse Kaddar*  
    [[pdf](https://arxiv.org/abs/2408.05284)]
 
-
 8. **International AI Safety Report.** [2025] ![](https://img.shields.io/badge/Overview-blue)  
    *Yoshua Bengio, Sören Mindermann, Daniel Privitera, Tamay Besiroglu, Rishi Bommasani, Stephen Casper, Yejin Choi, Philip Fox, Ben Garfinkel, Danielle Goldfarb, et al.*  
    [[pdf](https://arxiv.org/abs/2501.17805)]
-
 
 9. **Superintelligent Agents Pose Catastrophic Risks: Can Scientist AI Offer a Safer Path?** [2025] ![](https://img.shields.io/badge/Overview-blue)  
    *Yoshua Bengio, Michael Cohen, Damiano Fornasiere, Joumana Ghosn, Pietro Greiner, Matt MacDermott, Sören Mindermann, Adam Oberman, Jesse Richardson, Oliver Richardson, Marc-Antoine Rondeau, Pierre-Luc St-Charles, David Williams-King*  
@@ -68,8 +65,6 @@ This section presents foundational papers that introduce key concepts, challenge
 ## Alignment
 
 Alignment research focuses on ensuring AI systems act in accordance with human values and intentions. This area addresses the fundamental challenge of specifying what we want AI systems to do and creating techniques to train them to pursue these objectives faithfully. 
-
-
 
 1. **Scalable agent alignment via reward modeling: a research direction.** [2018] ![](https://img.shields.io/badge/Alignment-brightgreen)  
    *Jan Leike, David Krueger, Tom Everitt, Miljan Martic, Vishal Maini, Shane Legg*  
@@ -83,29 +78,37 @@ Alignment research focuses on ensuring AI systems act in accordance with human v
    *Dan Hendrycks, Mantas Mazeika, Andy Zou, Sahil Patel, Christine Zhu, Jesus Navarro, Dawn Song, Bo Li, Jacob Steinhardt*  
    [[pdf](https://arxiv.org/abs/2110.13136)]
 
-4. **The Effects of Reward Misspecification: Mapping and Mitigating Misaligned Models.** [2022] ![](https://img.shields.io/badge/Alignment-brightgreen)  
+4. **Goal Misgeneralization in Deep Reinforcement Learning.** [2021] ![](https://img.shields.io/badge/Alignment-brightgreen)  
+   *Lauro Langosco, Jack Koch, Lee Sharkey, Jacob Pfau, Laurent Orseau, David Krueger*  
+   [[pdf](https://arxiv.org/abs/2105.14111)]
+
+5. **The Effects of Reward Misspecification: Mapping and Mitigating Misaligned Models.** [2022] ![](https://img.shields.io/badge/Alignment-brightgreen)  
    *Alexander Pan, Kush Bhatia, Jacob Steinhardt*  
    [[pdf](https://arxiv.org/abs/2201.03544)]
 
-5. **Training language models to follow instructions with human feedback.** [2022] ![](https://img.shields.io/badge/Alignment-brightgreen)  
+6. **Training language models to follow instructions with human feedback.** [2022] ![](https://img.shields.io/badge/Alignment-brightgreen)  
    *Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda Askell, Peter Welinder, Paul Christiano, Jan Leike, Ryan Lowe*  
    [[pdf](https://arxiv.org/abs/2203.02155)]
 
-6. **Scaling Laws for Reward Model Overoptimization.** [2022] ![](https://img.shields.io/badge/Alignment-brightgreen)  
+7. **Scaling Laws for Reward Model Overoptimization.** [2022] ![](https://img.shields.io/badge/Alignment-brightgreen)  
    *Leo Gao, John Schulman, Jacob Hilton*  
    [[pdf](https://arxiv.org/abs/2210.10760)]
 
-7. **How Would The Viewer Feel? Estimating Wellbeing From Video Scenarios.** [2022] ![](https://img.shields.io/badge/Alignment-brightgreen)  
+8. **How Would The Viewer Feel? Estimating Wellbeing From Video Scenarios.** [2022] ![](https://img.shields.io/badge/Alignment-brightgreen)  
    *Mantas Mazeika, Eric Tang, Andy Zou, Steven Basart, Jun Shern Chan, Dawn Song, David Forsyth, Jacob Steinhardt, Dan Hendrycks*  
    [[pdf](https://arxiv.org/abs/2210.10039)]
 
-8. **Deliberative Alignment: Reasoning Enables Safer Language Models.** [2024] ![](https://img.shields.io/badge/Alignment-brightgreen)  
-   *Melody Y. Guan, Manas Joglekar, Eric Wallace, Saachi Jain, Boaz Barak, Alec Helyar, Rachel Dias, Andrea Vallone, Hongyu Ren, Jason Wei, Hyung Won Chung, Sam Toyer, Johannes Heidecke, Alex Beutel, Amelia Glaese*  
-   [[pdf](https://arxiv.org/abs/2412.16339)]
+9. **Characterizing Manipulation from AI Systems.** [2023] ![](https://img.shields.io/badge/Alignment-brightgreen)  
+   *Micah Carroll, Alan Chan, Henry Ashton, David Krueger*  
+   [[pdf](https://arxiv.org/abs/2303.09387)]
 
-9. **Alignment faking in large language models.** [2024] ![](https://img.shields.io/badge/Alignment-brightgreen)  
-   *Ryan Greenblatt, Carson Denison, Benjamin Wright, Fabien Roger, Monte MacDiarmid, Sam Marks, Johannes Treutlein, Tim Belonax, Jack Chen, David Duvenaud, Akbir Khan, Julian Michael, Sören Mindermann, Ethan Perez, Linda Petrini, Jonathan Uesato, Jared Kaplan, Buck Shlegeris, Samuel R. Bowman, Evan Hubinger*  
-   [[pdf](https://arxiv.org/abs/2412.14093)]
+10. **Alignment faking in large language models.** [2024] ![](https://img.shields.io/badge/Alignment-brightgreen)  
+    *Ryan Greenblatt, Carson Denison, Benjamin Wright, Fabien Roger, Monte MacDiarmid, Sam Marks, Johannes Treutlein, Tim Belonax, Jack Chen, David Duvenaud, Akbir Khan, Julian Michael, Sören Mindermann, Ethan Perez, Linda Petrini, Jonathan Uesato, Jared Kaplan, Buck Shlegeris, Samuel R. Bowman, Evan Hubinger*  
+    [[pdf](https://arxiv.org/abs/2412.14093)]
+
+11. **Deliberative Alignment: Reasoning Enables Safer Language Models.** [2024] ![](https://img.shields.io/badge/Alignment-brightgreen)  
+    *Melody Y. Guan, Manas Joglekar, Eric Wallace, Saachi Jain, Boaz Barak, Alec Helyar, Rachel Dias, Andrea Vallone, Hongyu Ren, Jason Wei, Hyung Won Chung, Sam Toyer, Johannes Heidecke, Alex Beutel, Amelia Glaese*  
+    [[pdf](https://arxiv.org/abs/2412.16339)]
 
 ---
 
@@ -129,17 +132,51 @@ Instrumental convergence examines how AI systems with different goals might deve
    *Jan Betley, Xuchan Bao, Martín Soto, Anna Sztyber-Betley, James Chua, Owain Evans*  
    [[pdf](https://arxiv.org/abs/2501.11120)]
 
-5. **Evaluating the Paperclip Maximizer: Are RL-Based Language Models More Likely to Pursue Instrumental Goals?** [2025] ![](https://img.shields.io/badge/Instrumental-purple)  
-   *Yufei He, Yuexin Li, Jiaying Wu, Yuan Sui, Yulin Chen, Bryan Hooi*  
-   [[pdf](https://www.arxiv.org/abs/2502.12206)]
-
-6. **Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs.** [2025] ![](https://img.shields.io/badge/Instrumental-purple)  
+5. **Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs.** [2025] ![](https://img.shields.io/badge/Instrumental-purple)  
    *Mantas Mazeika, Xuwang Yin, Rishub Tamirisa, Jaehyuk Lim, Bruce W. Lee, Richard Ren, Long Phan, Norman Mu, Adam Khoja, Oliver Zhang, Dan Hendrycks*  
    [[pdf](https://arxiv.org/abs/2502.08640)]
+
+6. **Evaluating the Paperclip Maximizer: Are RL-Based Language Models More Likely to Pursue Instrumental Goals?** [2025] ![](https://img.shields.io/badge/Instrumental-purple)  
+   *Yufei He, Yuexin Li, Jiaying Wu, Yuan Sui, Yulin Chen, Bryan Hooi*  
+   [[pdf](https://www.arxiv.org/abs/2502.12206)]
 
 7. **Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs.** [2025] ![](https://img.shields.io/badge/Instrumental-purple)  
    *Jan Betley, Daniel Tan, Niels Warncke, Anna Sztyber-Betley, Xuchan Bao, Martín Soto, Nathan Labenz, Owain Evans*  
    [[pdf](https://arxiv.org/abs/2502.17424)]
+
+---
+
+## Reward Hacking
+
+Reward hacking research examines how AI systems might exploit flaws or misspecifications in reward functions to achieve high rewards without fulfilling the intended objectives. 
+
+1. **Reward Tampering Problems and Solutions in Reinforcement Learning: A Causal Influence Diagram Perspective.** [2019] ![](https://img.shields.io/badge/Reward--Hacking-maroon)  
+   *Tom Everitt, Marcus Hutter, Ramana Kumar, Victoria Krakovna*  
+   [[pdf](https://arxiv.org/abs/1908.04734)]
+
+2. **Defining and Characterizing Reward Hacking.** [2022] ![](https://img.shields.io/badge/Reward--Hacking-maroon)  
+   *Joar Skalse, Nikolaus H. R. Howe, Dmitrii Krasheninnikov, David Krueger*  
+   [[pdf](https://arxiv.org/abs/2209.13085)]
+
+3. **Towards Understanding Sycophancy in Language Models.** [2023] ![](https://img.shields.io/badge/Reward--Hacking-maroon)  
+   *Mrinank Sharma, Meg Tong, Tomasz Korbak, David Duvenaud, Amanda Askell, Samuel R. Bowman, Newton Cheng, Esin Durmus, Zac Hatfield-Dodds, Scott R. Johnston, Shauna Kravec, Timothy Maxwell, Sam McCandlish, Kamal Ndousse, Oliver Rausch, Nicholas Schiefer, Da Yan, Miranda Zhang, Ethan Perez*  
+   [[pdf](https://arxiv.org/abs/2310.13548)]
+
+4. **Feedback Loops With Language Models Drive In-Context Reward Hacking.** [2024] ![](https://img.shields.io/badge/Reward--Hacking-maroon)  
+   *Alexander Pan, Erik Jones, Meena Jagadeesan, Jacob Steinhardt*  
+   [[pdf](https://arxiv.org/abs/2402.06627)]
+
+5. **Spontaneous Reward Hacking in Iterative Self-Refinement.** [2024] ![](https://img.shields.io/badge/Reward--Hacking-maroon)  
+   *Jane Pan, He He, Samuel R. Bowman, Shi Feng*  
+   [[pdf](https://arxiv.org/abs/2407.04549)]
+
+6. **Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models.** [2024] ![](https://img.shields.io/badge/Reward--Hacking-maroon)  
+   *Carson Denison, Monte MacDiarmid, Fazl Barez, David Duvenaud, Shauna Kravec, Samuel Marks, Nicholas Schiefer, Ryan Soklaski, Alex Tamkin, Jared Kaplan, Buck Shlegeris, Samuel R. Bowman, Ethan Perez, Evan Hubinger*  
+   [[pdf](https://arxiv.org/abs/2406.10162)]
+
+7. **Reward Shaping to Mitigate Reward Hacking in RLHF.** [2025] ![](https://img.shields.io/badge/Reward--Hacking-maroon)  
+   *Jiayi Fu, Xuandong Zhao, Chengyuan Yao, Heng Wang, Qi Han, Yanghua Xiao*  
+   [[pdf](https://www.arxiv.org/abs/2502.18770)]
 
 ---
 
@@ -213,12 +250,9 @@ Debate approaches leverage the ability of AI systems to critique each other's ou
    *Jonah Brown-Cohen, Geoffrey Irving, Georgios Piliouras*  
    [[pdf](https://arxiv.org/abs/2311.14125)]
 
-
 3. **Debating with More Persuasive LLMs Leads to More Truthful Answers.** [2024] ![](https://img.shields.io/badge/Debate-pink)  
    *Akbir Khan, John Hughes, Dan Valentine, Laura Ruis, Kshitij Sachan, Ansh Radhakrishnan, Edward Grefensthe, Samuel R. Bowman, Tim Rocktäschel, Ethan Perez*  
    [[pdf](https://arxiv.org/abs/2402.06782)]
-
-
 
 ---
 
@@ -296,13 +330,21 @@ Mechanistic interpretability focuses on developing techniques to understand the 
    *Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren, Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, Shashwat Goel, Nathaniel Li, Michael J. Byun, Zifan Wang, Alex Mallen, Steven Basart, Sanmi Koyejo, Dawn Song, Matt Fredrikson, J. Zico Kolter, Dan Hendrycks*  
    [[pdf](https://arxiv.org/abs/2310.01405)]
 
-2. **A Mechanistic Understanding of Alignment Algorithms: A Case Study on DPO and Toxicity.** [2024] ![](https://img.shields.io/badge/Interpretability-yellow)  
+2. **Interpreting Learned Feedback Patterns in Large Language Models.** [2023] ![](https://img.shields.io/badge/Interpretability-yellow)  
+   *Luke Marks, Amir Abdullah, Clement Neo, Rauno Arike, David Krueger, Philip Torr, Fazl Barez*  
+   [[pdf](https://arxiv.org/abs/2310.08164)]
+
+3. **A Mechanistic Understanding of Alignment Algorithms: A Case Study on DPO and Toxicity.** [2024] ![](https://img.shields.io/badge/Interpretability-yellow)  
    *Andrew Lee, Xiaoyan Bai, Itamar Pres, Martin Wattenberg, Jonathan K. Kummerfeld, Rada Mihalcea*  
    [[pdf](https://arxiv.org/abs/2401.01967)]
 
-3. **Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet.** [2024] ![](https://img.shields.io/badge/Interpretability-yellow)  
+4. **Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet.** [2024] ![](https://img.shields.io/badge/Interpretability-yellow)  
    *Adly Templeton, Tom Conerly, Jonathan Marcus, Jack Lindsey, Trenton Bricken, Brian Chen, Adam Pearce, Craig Citro, Emmanuel Ameisen, Andy Jones, Hoagy Cunningham, Nicholas L Turner, Callum McDougall, Monte MacDiarmid, Alex Tamkin, Esin Durmus, Tristan Hume, Francesco Mosconi, C. Daniel Freeman, Theodore R. Sumers, Edward Rees, Joshua Batson, Adam Jermyn, Shan Carter, Chris Olah, Tom Henighan*  
    [[pdf](https://transformer-circuits.pub/2024/scaling-monosemanticity/)]
+
+5. **Predicting Future Actions of Reinforcement Learning Agents.** [2024] ![](https://img.shields.io/badge/Interpretability-yellow)  
+   *Stephen Chung, Scott Niekum, David Krueger*  
+   [[pdf](https://arxiv.org/abs/2410.22459)]
 
 ---
 
